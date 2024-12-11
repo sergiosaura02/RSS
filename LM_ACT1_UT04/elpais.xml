@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Noticias el País</title>
+    <link>https://elpais.com/</link>
+    <description>Web de la Prensa El País</description>
+
+    <item>
+      <title>Noticias Internacionales</title>
+      <link>https://elpais.com/internacional/</link>
+      <description>Noticias importantes de todo el mundo.</description>
+      <pubDate>Wed, 11 Dec 2024 10:00:00 +0100</pubDate>
+    </item>
+
+    <item>
+      <title>Noticias Europeas</title>
+      <link>https://elpais.com/internacional/europa/</link>
+      <description>Noticias importantes de todo Europa.</description>
+      <pubDate>Wed, 11 Dec 2024 11:00:00 +0100</pubDate>
+    </item>
+
+    <item>
+      <title>Noticias sobre Economía</title>
+      <link>https://elpais.com/economia/</link>
+      <description>Noticias importantes sobre economía.</description>
+      <pubDate>Wed, 11 Dec 2024 12:00:00 +0100</pubDate>
+    </item>
+
+    <item>
+      <title>Noticias sobre Clima y Medio Ambiente</title>
+      <link>https://elpais.com/clima-y-medio-ambiente/</link>
+      <description>Noticias importantes sobre el clima y el medio ambiente.</description>
+      <pubDate>Wed, 11 Dec 2024 13:00:00 +0100</pubDate>
+    </item>
+
+    <item>
+      <title>Noticias sobre Ciencia</title>
+      <link>https://elpais.com/ciencia/</link>
+      <description>Noticias importantes sobre ciencia.</description>
+      <pubDate>Wed, 11 Dec 2024 14:00:00 +0100</pubDate>
+    </item>
+
+  </channel>
+</rss>
+
