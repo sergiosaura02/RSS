@@ -1,0 +1,10 @@
+---------------------------------------------------------------
+CON PYSIDE6:
+
+1) Para pasar el archivo .ui a python:
+pyside6-uic -g python PruebaEstudioDI.ui -o PruebaEstudioDI.py
+
+2) Para pasar los recursos a código python:
+pyside6-rcc -g python recursos.qrc -o recursos.py
+---------------------------------------------------------------
+
