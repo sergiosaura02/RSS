@@ -1,0 +1,43 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="https://www.ejemplo.com/valores"
+           xmlns="https://www.ejemplo.com/valores"
+           elementFormDefault="qualified">
+    <xs:element name="valores">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="accion" maxOccurs="unbounded"
+                    type="Accion"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="Accion">
+        <xs:sequence>
+            <xs:element name="mercado"
+                type="xs:string"/>
+            <xs:element name="nombre"
+                type="xs:string"/>
+            <xs:element name="mercado-abierto">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="SÍ"/>
+                        <xs:enumeration value="NO"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="recomendación"
+                type="xs:int"/>
+            <xs:element name="fecha"
+                type="Fecha"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Fecha">
+        <xs:sequence>
+            <xs:element name="día"
+                type="xs:int"/>
+            <xs:element name="mes"
+                type="xs:int"/>
+            <xs:element name="año"
+                type="xs:int"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
