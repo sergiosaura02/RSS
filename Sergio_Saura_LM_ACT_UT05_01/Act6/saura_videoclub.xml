@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videoclub SYSTEM "saura_videoclub.dtd">
+<videoclub>
+    <factura>
+        <datoscliente identificador="F10">
+            <nombre>Juan</nombre>
+            <apellido>Fernandez</apellido>
+            <DNI>47739549S</DNI>
+            <telefono>933486305</telefono>
+        </datoscliente>
+        <datosticketfactura>
+            <resguardo_factura>
+                <importe_total formapago="efectivo"></importe_total>
+            </resguardo_factura>
+            <alquileres fecha_devolucion="27/03/2024">
+                <pelicula idPelicula="MJ" valoracion="5/5">
+                    <titulo>Mundo Jurásico</titulo>
+                    <genero>acción</genero>
+                    <duracion>2h 4min</duracion>
+                    <actor>
+                        <nombre_actor>Bryce</nombre_actor>
+                        <apellidos_actor>Dallas Howard</apellidos_actor>
+                    </actor>
+                    <actor>
+                        <nombre_actor>Chris</nombre_actor>
+                        <apellidos_actor>Pratt</apellidos_actor>
+                    </actor>
+                    <actor>
+                        <nombre_actor>Nick</nombre_actor>
+                        <apellidos_actor>Robinson</apellidos_actor>
+                    </actor>
+                </pelicula>
+                <pelicula idPelicula="OC" valoracion="3/5">
+                    <titulo>Operación camaron</titulo>
+                    <genero>comedia</genero>
+                    <duracion>105min</duracion>
+                    <actor>
+                        <nombre_actor>Carlos</nombre_actor>
+                        <apellidos_actor>Librado</apellidos_actor>
+                    </actor>
+                    <actor>
+                        <nombre_actor>Natalia</nombre_actor>
+                        <apellidos_actor>De Molina</apellidos_actor>
+                    </actor>
+                    <actor>
+                        <nombre_actor>Miren</nombre_actor>
+                        <apellidos_actor>Ibarguren</apellidos_actor>
+                    </actor>
+                    <caratula>caratulas/c0360.jpg</caratula>
+                </pelicula>
+            </alquileres>
+            <compras>
+                <DVD>
+                    <titulo>avatar</titulo>
+                    <fecha_salida>15/04/2010</fecha_salida>
+                    <no_extras/>
+                </DVD>
+                <Cinta>
+                    <formato>VHS</formato>
+                    <no_rebobinada/>
+                </Cinta>
+            </compras>
+        </datosticketfactura>
+    </factura>
+</videoclub>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<equipos>
+    <equipo>
+        <nombre>FC Barcelona</nombre>
+        <ciudad>Barcelona</ciudad>
+        <entrenador></entrenador>
+        <jugadores>
+            <jugador posicion="portero">
+                <nombre>Marc-André ter Stegen</nombre>
+                <nacionalidad>Alemana</nacionalidad>
+            </jugador>
+            <jugador posicion="delantero">
+                <nombre>Robert Lewandowski</nombre>
+                <nacionalidad>Polaca</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+
+    <equipo>
+        <nombre>Real Madrid</nombre>
+        <ciudad>Madrid</ciudad>
+        <entrenador></entrenador>
+        <jugadores>
+            <jugador posicion="defensa">
+                <nombre>Éder Militão</nombre>
+                <nacionalidad>Brasileña</nacionalidad>
+            </jugador>
+            <jugador posicion="medio">
+                <nombre>Luka Modrić</nombre>
+                <nacionalidad>Croata</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+</equipos>

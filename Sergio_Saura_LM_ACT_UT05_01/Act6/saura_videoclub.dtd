@@ -1,0 +1,41 @@
+<!ELEMENT videoclub (factura+)>
+<!ELEMENT factura (datoscliente, datosticketfactura)>
+<!ELEMENT datoscliente (nombre, apellido, DNI, telefono)>
+<!ATTLIST datoscliente identificador CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT DNI (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+
+<!ELEMENT datosticketfactura (resguardo_factura, alquileres?, compras?)>
+
+<!ELEMENT resguardo_factura (importe_total)>
+<!ELEMENT importe_total (#PCDATA)>
+<!ATTLIST importe_total formapago (efectivo | tarjeta) #REQUIRED>
+<!ELEMENT alquileres (pelicula*)>
+<!ATTLIST alquileres fecha_devolucion CDATA #REQUIRED>
+
+<!ELEMENT pelicula (titulo, genero, duracion, actor+, caratula?)>
+<!ATTLIST pelicula idPelicula ID #REQUIRED>
+<!ATTLIST pelicula valoracion CDATA #REQUIRED>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+
+<!ELEMENT actor (nombre_actor, apellidos_actor)>
+<!ELEMENT caratula (#PCDATA)>
+
+<!ELEMENT nombre_actor (#PCDATA)>
+<!ELEMENT apellidos_actor (#PCDATA)>
+
+<!ELEMENT compras (DVD*, Cinta*)>
+<!ELEMENT DVD (titulo, fecha_salida, (extras | no_extras))>
+<!ELEMENT fecha_salida (#PCDATA)>
+<!ELEMENT extras EMPTY>
+<!ELEMENT no_extras EMPTY>
+
+<!ELEMENT Cinta (formato, (rebobinada | no_rebobinada))>
+<!ELEMENT formato (#PCDATA)>
+<!ELEMENT rebobinada EMPTY>
+<!ELEMENT no_rebobinada EMPTY>
